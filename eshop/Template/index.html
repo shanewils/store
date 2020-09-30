@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d608acfffe.js" crossorigin="anonymous"></script>
+    <title>Dice trays</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">Dice Trays</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="signin.html">Sign In</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3>Shopping Categories</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Dice</a>
+                </li>
+                <li>
+                    <a href="index.html">Dice Trays</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img src="./img/dice.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Example</a>
+                            </div>
+                            <div class="product-price">£25</div>
+                            <div class="product-rating">4.5 <i class="fas fa-star"></i> (10 reviews)</div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="product">
+                            <img src="./img/dice.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Example</a>
+                            </div>
+                            <div class="product-price">£25</div>
+                            <div class="product-rating">4.5 <i class="fas fa-star"></i> (10 reviews)</div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="product">
+                            <img src="./img/dice.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Example</a>
+                            </div>
+                            <div class="product-price">£25</div>
+                            <div class="product-rating">4.5 <i class="fas fa-star"></i> (10 reviews)</div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="product">
+                            <img src="./img/dice.jpg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">Example</a>
+                            </div>
+                            <div class="product-price">£25</div>
+                            <div class="product-rating">4.5 <i class="fas fa-star"></i> (10 reviews)</div>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>© Shane Wilson 2020</p>
+        </footer>
+    </div>
+    <script>
+        const openMenu = () => {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+
+        const closeMenu = () => {
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
+</body>
+</html>
