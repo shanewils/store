@@ -8,7 +8,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -18,7 +19,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 0,
         },
 
         {
@@ -28,7 +30,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -38,7 +41,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -48,7 +52,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -58,7 +63,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
         
         {
@@ -68,7 +74,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -78,7 +85,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
 
         {
@@ -88,7 +96,8 @@ export default {
             category: 'Bases',
             price: 5,
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 6,
         },
     ]
 }
