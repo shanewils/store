@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import config from './config';
 import mongoose from "mongoose";
 import bodyParser from 'body-parser';
@@ -7,7 +6,6 @@ import userRoute from './routes/userRoutes';
 import orderRoute from './routes/orderRoute';
 import productRoute from './routes/productRoutes';
 
-dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
 mongoose.connect(mongodbUrl, {
