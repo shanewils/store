@@ -2,8 +2,6 @@
 
 var _express = _interopRequireDefault(require("express"));
 
-var _dotenv = _interopRequireDefault(require("dotenv"));
-
 var _config = _interopRequireDefault(require("./config"));
 
 var _mongoose = _interopRequireDefault(require("mongoose"));
@@ -17,8 +15,6 @@ var _orderRoute = _interopRequireDefault(require("./routes/orderRoute"));
 var _productRoutes = _interopRequireDefault(require("./routes/productRoutes"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-_dotenv["default"].config();
 
 var mongodbUrl = _config["default"].MONGODB_URL;
 
