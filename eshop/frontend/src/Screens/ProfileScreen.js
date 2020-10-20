@@ -41,7 +41,7 @@ function ProfileScreen(props) {
         return () => {
             
         };  
-    }, [])
+    }, [dispatch, userInfo])
 
     return <div className="profile">
         <div className="profile-info">

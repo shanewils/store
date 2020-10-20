@@ -30,7 +30,7 @@ const PaymentScreen = (props) => {
                                 onChange={(e) => setPaymentMethod(e.target.value)}>
                             </input>
                             <label htmlFor="paymentMethod">
-                                <img src="../../../img/paypal.png"></img>
+                                <img src="../../../img/paypal.png" alt="paypal"></img>
                             </label>
                         </li>
                     </div>

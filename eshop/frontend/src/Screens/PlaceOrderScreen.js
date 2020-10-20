@@ -8,7 +8,7 @@ function PlaceOrderScreen (props) {
 
     const cart = useSelector(state => state.cart);
     const orderCreate = useSelector(state => state.orderCreate);
-    const { loading, success, error, order } = orderCreate;
+    const { success, order } = orderCreate;
 
     const { cartItems, shipping, payment } = cart;
     if (!shipping.address) {
@@ -36,7 +36,7 @@ function PlaceOrderScreen (props) {
           props.history.push("/order/" + order._id);
         }
     
-      }, [success]);
+      }, [success, dispatch, order._id, props.history]);
 
     return <div>
         <CheckoutSteps step1 step2 step3 step4></CheckoutSteps>
