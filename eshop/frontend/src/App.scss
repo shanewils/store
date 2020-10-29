@@ -29,7 +29,7 @@ button {
 
 .banner {
   background-image: url(/img/banner.jpg);
-  height: 50vh;
+  height: 39vh;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -632,10 +632,11 @@ input {
 
 .filter {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   margin: 1rem auto;
-  max-width: 50rem;
+  max-width: 52rem;
   justify-content: space-between;
   align-items: center;
 
@@ -648,7 +649,6 @@ input {
 
   select, li {
     font-size: 1.6rem;
-
   }
 }
 

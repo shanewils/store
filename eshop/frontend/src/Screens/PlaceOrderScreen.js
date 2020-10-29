@@ -18,14 +18,13 @@ function PlaceOrderScreen (props) {
     }
 
     const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
-    const shippingPrice = itemsPrice > 50 ? 0 : 5;
+    const shippingPrice = itemsPrice > 50 ? 0 : 3;
  
     const totalPrice = itemsPrice + shippingPrice;
 
     const dispatch = useDispatch();
 
     const placeOrderHandler = () => {
-        // create an order
         dispatch(createOrder({
           orderItems: cartItems, shipping, payment, itemsPrice, shippingPrice,
           totalPrice
@@ -36,7 +35,7 @@ function PlaceOrderScreen (props) {
           props.history.push("/order/" + order._id);
         }
     
-      }, [success, dispatch, order._id, props.history]);
+      }, [success, dispatch]);
 
     return <div>
         <CheckoutSteps step1 step2 step3 step4></CheckoutSteps>

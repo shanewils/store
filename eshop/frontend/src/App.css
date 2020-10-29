@@ -30,7 +30,7 @@ button {
 
 .banner {
   background-image: url(/img/banner.jpg);
-  height: 50vh;
+  height: 39vh;
   background-size: contain;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -754,10 +754,12 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   margin: 1rem auto;
-  max-width: 50rem;
+  max-width: 52rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

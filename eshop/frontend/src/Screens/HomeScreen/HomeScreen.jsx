@@ -51,8 +51,8 @@ const HomeScreen = (props) => {
           Sort By {' '}
           <select name="sortOrder" onChange={sortHandler}>
             <option value="">Newest</option>
-            <option value="lowest">Highest to Lowest</option>
-            <option value="highest">Lowest to Highest</option>
+            <option value="lowest">Price Highest to Lowest</option>
+            <option value="highest">Price Lowest to Highest</option>
           </select>
         </li>
       </ul>
